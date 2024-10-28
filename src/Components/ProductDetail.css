@@ -1,0 +1,83 @@
+/* General Container Styling */
+.handlechange {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+    color: #333;
+  }
+  
+  
+  /* List and List Item Styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  
+  /* Button Styling */
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Back Button Styling */
+  .back-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 30px auto;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .handlechange {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    button {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+  

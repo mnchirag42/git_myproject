@@ -1,0 +1,78 @@
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #8B4513; 
+    border-radius: 10px;
+    background-color: #ffdd02cc; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nameboxs {
+    margin-bottom: 10px;
+}
+
+.namebox1 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #3B3B3B; 
+    margin-bottom: 5px;
+    display: block;
+}
+
+.namebox {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #8B4513; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #D9EAD3; 
+    color: #3B3B3B;
+}
+
+.addbox, .imagebox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btnbox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btnbox .namebox {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnbox .namebox:hover {
+    background-color: #8B4513; 
+    
+    color: #FFFFFF;
+}
+
+textarea.namebox {
+    resize: none;
+}
+
+input[type="file"].namebox {
+    padding: 5px;
+    background-color: #F9F9F9;
+}
+
+span {
+    font-size: 0.9em;
+    color: #8B4513; 
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #8B4513; 
+}

@@ -1,0 +1,62 @@
+/* RawMaterials.css */
+
+.materials {
+    background-color: #aae87a;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  h2 {
+    color: #000000f5;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .materials ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .materials li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #e3f884;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .materials li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .materials a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  
+  .materials a:hover {
+    color: #000000;
+  }
+  
+  @media (max-width: 600px) {
+    .materials a {
+      font-size: 1em;
+    }
+  
+    .materials a img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+  }
+  

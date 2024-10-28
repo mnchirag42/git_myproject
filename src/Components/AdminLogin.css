@@ -1,0 +1,82 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #67a844;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.delcontainer {
+  background-color: #dae96b;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  
+}
+
+.h {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+
+.un, .p {
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+}
+
+label {
+  font-size: 14px;
+  color: #000000;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+
+input:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(8, 8, 9, 0.5);
+}
+
+
+.loginbutton button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0f0a95e6;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginbutton button:hover {
+  background-color: #1283da;
+}
+
+
+@media (max-width: 400px) {
+  .delcontainer {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .h {
+    font-size: 20px;
+  }
+}
+

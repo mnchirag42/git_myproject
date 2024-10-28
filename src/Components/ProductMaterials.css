@@ -1,0 +1,67 @@
+/* ProductMaterials.css */
+
+.Materials {
+    background-color: #aae87a;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  h2 {
+    color: #000000f5;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .Materials ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Materials li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #d5eca8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .Materials li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .Materials a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Materials a img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 100%;
+  }
+  
+  .Materials a:hover {
+    color: #000000;
+  }
+  
+  @media (max-width: 600px) {
+    .Materials a {
+      font-size: 1em;
+    }
+  
+    .Materials a img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+  }
